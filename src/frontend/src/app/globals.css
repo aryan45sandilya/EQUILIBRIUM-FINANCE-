@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
+    --border: 0 0% 0%;
+  }
+
+  body {
+    @apply font-sans bg-[#E0FF00] text-black antialiased;
+  }
+
+  * {
+    @apply border-border;
+  }
+}
+
+@layer components {
+  .brutalist-card {
+    @apply bg-white border-5 border-black shadow-brutalist transition-all duration-150;
+  }
+  .brutalist-card:hover {
+    @apply -translate-x-0.5 -translate-y-0.5 shadow-[10px_10px_0_0_#000];
+  }
+  .brutalist-card-black {
+    @apply bg-black text-white border-5 border-black shadow-brutalist-pink transition-all duration-150;
+  }
+  .brutalist-card-cyan {
+    @apply bg-[#00D1FF] border-5 border-black shadow-brutalist transition-all duration-150;
+  }
+  .brutalist-card-pink {
+    @apply bg-[#FF00F5] text-white border-5 border-black shadow-brutalist transition-all duration-150;
+  }
+  .brutalist-btn {
+    @apply border-3 border-black font-black uppercase tracking-wider text-xs px-5 py-3 
+           shadow-brutalist-sm transition-all cursor-pointer
+           active:translate-x-[2px] active:translate-y-[2px] active:shadow-none;
+  }
+  .brutalist-input {
+    @apply border-3 border-black bg-white px-4 py-3 font-bold text-sm
+           focus:border-[#FF00F5] focus:outline-none focus:shadow-brutalist-sm
+           rounded-none w-full;
+  }
+}
+
+.scrollbar-none::-webkit-scrollbar { display: none; }
+.scrollbar-none { -ms-overflow-style: none; scrollbar-width: none; }

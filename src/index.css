@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", "Inter", ui-sans-serif, system-ui;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Vibrant Palette theme colors */
+  --color-vibrant-yellow: #E0FF00;
+  --color-vibrant-magenta: #FF00F5;
+  --color-vibrant-cyan: #00D1FF;
+  --color-vibrant-black: #000000;
+}
+
+/* Custom scrollbars for recent activity lists */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #E0FF00;
+  color: #000000;
+}
+
+/* Neo-Brutalist elements matching original design specifications */
+.brutalist-card-white {
+  background-color: #ffffff;
+  color: #000000;
+  border: 5px solid #000000;
+  box-shadow: 8px 8px 0px 0px #000000;
+  transition: all 0.15s ease-out;
+}
+.brutalist-card-white:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 10px 10px 0px 0px #000000;
+}
+
+.brutalist-card-pink {
+  background-color: #FF00F5;
+  color: #ffffff;
+  border: 5px solid #000000;
+  box-shadow: 8px 8px 0px 0px #000000;
+  transition: all 0.15s ease-out;
+}
+.brutalist-card-pink:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 10px 10px 0px 0px #000000;
+}
+
+.brutalist-card-cyan {
+  background-color: #00D1FF;
+  color: #000000;
+  border: 5px solid #000000;
+  box-shadow: 8px 8px 0px 0px #000000;
+  transition: all 0.15s ease-out;
+}
+.brutalist-card-cyan:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 10px 10px 0px 0px #000000;
+}
+
+.brutalist-card-black {
+  background-color: #000000;
+  color: #ffffff;
+  border: 5px solid #000000;
+  box-shadow: 8px 8px 0px 0px #FF00F5;
+  transition: all 0.15s ease-out;
+}
+.brutalist-card-black:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 10px 10px 0px 0px #FF00F5;
+}
+
+.brutalist-card-yellow {
+  background-color: #E0FF00;
+  color: #000000;
+  border: 5px solid #000000;
+  box-shadow: 8px 8px 0px 0px #000000;
+  transition: all 0.15s ease-out;
+}
+.brutalist-card-yellow:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 10px 10px 0px 0px #000000;
+}
+
+.brutalist-button-black {
+  background-color: #000000;
+  color: #E0FF00;
+  border: 3px solid #000000;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.1s ease-out;
+  cursor: pointer;
+}
+.brutalist-button-black:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+.brutalist-button-black:active {
+  transform: translate(2px, 2px);
+  box-shadow: none;
+}
+
+.brutalist-button-white {
+  background-color: #ffffff;
+  color: #000000;
+  border: 3px solid #000000;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.1s ease-out;
+  cursor: pointer;
+}
+.brutalist-button-white:hover {
+  background-color: #000000;
+  color: #E0FF00;
+}
+.brutalist-button-white:active {
+  transform: translate(2px, 2px);
+}
+
+.brutalist-button-magenta {
+  background-color: #FF00F5;
+  color: #ffffff;
+  border: 3px solid #000000;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.1s ease-out;
+  cursor: pointer;
+}
+.brutalist-button-magenta:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.brutalist-input {
+  background-color: #ffffff;
+  color: #000000;
+  border: 3px solid #000000;
+  border-radius: 0px;
+  font-weight: 700;
+  transition: all 0.12s ease-out;
+}
+.brutalist-input:focus {
+  outline: none;
+  border-color: #FF00F5;
+  box-shadow: 4px 4px 0px 0px #000000;
+}

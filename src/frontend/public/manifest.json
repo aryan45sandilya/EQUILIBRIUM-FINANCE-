@@ -1,0 +1,26 @@
+{
+  "name": "Equilibrium Finance",
+  "short_name": "Equilibrium",
+  "description": "Smart expense splitting with debt simplification",
+  "start_url": "/dashboard",
+  "display": "standalone",
+  "background_color": "#E0FF00",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "categories": ["finance", "utilities"]
+}

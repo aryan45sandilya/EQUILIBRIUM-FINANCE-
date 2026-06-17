@@ -1,0 +1,6 @@
+{
+  "name": "Equilibrium Finance",
+  "description": "Bold, high-performance financial intelligence and group expense simplifier with real-time circular debt neutralization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
