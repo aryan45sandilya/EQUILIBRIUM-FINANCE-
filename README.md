@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Black+Han+Sans&size=42&pause=1000&color=000000&background=E0FF00&center=true&vCenter=true&width=600&height=80&lines=⚖️+EQUILIBRIUM+FINANCE;Smart+Splits.+Zero+Drama." alt="Typing SVG" />
-
 [![Next.js](https://img.shields.io/badge/Next.js_14-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org)
 [![Express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com)
